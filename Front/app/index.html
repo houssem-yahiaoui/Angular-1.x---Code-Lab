@@ -1,0 +1,42 @@
+<html ng-app="dz">
+
+<head>
+    <title>Demo's</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">Angular 1.x Demo</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">DZ Geek Hangout</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div ui-view class="container"></div>
+
+
+    <!-- Bower Components -->
+    <script src="../libs/angular/angular.js"></script>
+    <script src="../libs/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <!-- My Components -->
+    <script src="app.js"></script>
+    <script src="views/home/homeCtrl.js"></script>
+    <script src="views/twoWays/twoCtrl.js"></script>
+    <script src="views/data/dataCtrl.js"></script>
+    <script src="views/data/dataFactory.js"></script>
+</body>
+
+</html>
