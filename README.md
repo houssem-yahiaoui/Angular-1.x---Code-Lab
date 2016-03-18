@@ -22,7 +22,7 @@ $ npm install
  This will add new folders to your working folders and then simple launch your 
  code !! 
 
- ### Lunch the Code : 
+ ###Lunch the Code : 
 
  For your **Back End** simply work with **nodemon** or simple use : 
 
